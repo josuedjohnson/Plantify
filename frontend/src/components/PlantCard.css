@@ -1,0 +1,19 @@
+.plant-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.plant-card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 16px;
+  justify-content: left;
+  padding: 16px;
+  border: 1px solid black;
+  border-radius: 8px;
+  max-width: 300px;
+  background-color: lightgrey;
+}
