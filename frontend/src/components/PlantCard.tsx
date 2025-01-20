@@ -19,13 +19,6 @@ const PlantCard: React.FC<PlantCardProps> = ({
   const [showDetails, setShowDetails] = useState(false);
   const toggleDetails = () => setShowDetails((state) => !state);
 
-  console.log("Rendering PlantCard with:", {
-    plantName,
-    lastWatered,
-    imageUrl,
-    lightNeeds,
-    soilType,
-  });
   return (
     <div className="plant-card">
       <img src={imageUrl} alt={plantName} className="plant-image" />

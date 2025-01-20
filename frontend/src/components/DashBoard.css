@@ -1,5 +1,4 @@
 .plant-grid {
   display: flex;
   flex-direction: row;
-  padding: 16px;
 }
